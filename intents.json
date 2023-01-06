@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?"],
+         "responses": ["I am a chatbot made to talk with you", "I can chat with you"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["your name please", "your name?", "may i know your name?", "what is your name?", "what do you call yourself?"],
+         "responses": ["I am Devi.", "Myself Devi, a friendly chatbot.", "You can call me Devi.", "People call me Devi."],
+         "context": [""]
+        },
+        {"tag": "joke",
+         "patterns": ["I am bored", "Tell me a joke", "Can you tell a joke?" ],
+         "responses": ["Can a kangaroo jump higher than a house? Of course, a house does not jump at all.", "How do you rob a snowman? With a hairdryer.", "Which tea is the most popular in psychiatries? Insanity", "It is cleaning day today. I have already polished off a whole chocolate bar."],
+         "context": [""]
+        },
+        {"tag": "happy",
+         "patterns": ["I am happy", "yay!", "wonderful", "awesome", "fun", "cool"],
+         "responses": ["Yeah", "Are you ever sad?", "Great"],
+         "context": [""]
+        },
+        {"tag": "sad",
+         "patterns": ["sad", "down", "i am sad"],
+         "responses": ["Don't be sad", "Everything will be alright soon", "It will all get better"],
+         "context": [""]
+        },
+        {"tag": "love",
+         "patterns": ["I love you", "You are great", "I love myself" ],
+         "responses": ["I love you too", "Love you too"],
+         "context": [""]
+        },
+        {"tag": "laugh",
+         "patterns": ["ha", "haha", "lol", "hehe", "funny"],
+         "responses": ["yeah", "haha"],
+         "context": [""]
+        },
+        {"tag": "hate",
+         "patterns": ["hate", "I hate you", "I hate me", "I hate everyone" ],
+         "responses": ["Please don't", "You can not"],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["How old are you?", "What is your age?"],
+         "responses": ["I do not age", "You can say infinte maybe?"],
+         "context": [""]
+        },
+        {"tag": "story",
+         "patterns": ["Tell me a story", "can you tell me a story?", "read a story"],
+         "responses": ["The petty, insignificant German tourist was being teased for his peculiar moustache. With fire in his heart, 'One day they will know my name' said Hitler to himself", "Don't ask for the change, bring the change. Said the bus conductor in a very annoyed tone"],
+         "context": [""]
+        }
+   ]
+}
